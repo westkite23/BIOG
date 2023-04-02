@@ -1,0 +1,157 @@
+body{
+    font: Arial, Helvetica, Sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.dark{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header{
+    background-color: navy;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(12, 22, 74) 15px solid;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header li{
+    display: inline;
+    padding: 0 10px;
+    float: left;
+}
+
+header #branding{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 7px;
+}
+
+header .highlight, header .current a{
+    color:#e8491d;
+    font-weight: bold;
+}
+
+header a:hover{
+    color:#aaaaaa;
+    font-weight: bold;
+}
+
+
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img{
+    width: 420px;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(179, 213, 250);
+    text-align: center;
+}
+
+#showcase{
+    min-height: 100px;
+    background: url("../img/show.jpg") 
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: linen;
+}
+
+#showcase p{
+    font-size: 20px;
+    color: linen;
+}
+
+#pollow{
+    background-color: royalblue ;
+    padding: 15px;
+    color: white;
+}
+
+#pollow h1{
+    float: left;
+}
+
+#pollow form{
+    float: right;
+    margin-top: 15px;
+}
+
+#pollow input[type="id"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.button_1{
+    height: 30px;
+    background-color: blue;
+    border-radius: 5px;
+    border: 0;
+    padding: 0 20px;
+    color: white;
+}
+
+#main img{
+    width: 700px;
+}
+
+#photo img{
+    width: 300px;
+}
+
+aside#sidebar{
+    float: right;
+    width: 15%;
+    margin-top: 0px;
+}
+
+#photo li{
+    float: left;
+    width: 25%;
+    padding: auto;
+    text-align: auto;
+}
